@@ -1,0 +1,9 @@
+UTF8 Codes for symbols we might want to use for the program:
+NSLog(@"Let's see if we can display a skull and crossbones: %C",0x2620);
+NSLog(@"A virgin symbol: %C, a female symbol: %C, a male symbol %C",0x263f,0x2640,0x2642);
+
+Seems to leak memory when going to background sometimes
+also leaks when I scroll the alert box
+
+average memory usage:
+between 2 - 4mb

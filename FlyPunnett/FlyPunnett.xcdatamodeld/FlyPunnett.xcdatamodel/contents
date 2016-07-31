@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="872" systemVersion="10K549" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Event" representedClassName="Event">
+        <attribute name="dadGenotype" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="f1stCopyOf2nd" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="f1stCopyOf3rd" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="f1stCopyOfX" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="f2ndCopyOf2nd" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="f2ndCopyOf3rd" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="f2ndCopyOfX" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="m1stCopyOf2nd" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="m1stCopyOf3rd" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="m2ndCopyOf2nd" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="m2ndCopyOf3rd" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="momGenotype" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mX" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mY" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="possibleProgeny" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timeStamp" optional="YES" attributeType="Date"/>
+    </entity>
+    <entity name="TextBox" syncable="YES">
+        <attribute name="currentText" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Event" positionX="261" positionY="189" width="128" height="285"/>
+        <element name="TextBox" positionX="160" positionY="192" width="128" height="60"/>
+    </elements>
+</model>

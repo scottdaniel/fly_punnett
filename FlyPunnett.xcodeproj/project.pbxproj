@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2113B0B14FBE87300998BD8 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2113B0A14FBE87300998BD8 /* MessageUI.framework */; };
+		D21362DF14E86AFE0043610F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D21362DE14E86AFE0043610F /* UIKit.framework */; };
+		D21362E114E86AFE0043610F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D21362E014E86AFE0043610F /* Foundation.framework */; };
+		D21362E314E86AFE0043610F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D21362E214E86AFE0043610F /* CoreGraphics.framework */; };
+		D21362E514E86AFE0043610F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D21362E414E86AFE0043610F /* CoreData.framework */; };
+		D21362EB14E86AFE0043610F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D21362E914E86AFE0043610F /* InfoPlist.strings */; };
+		D21362ED14E86AFE0043610F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D21362EC14E86AFE0043610F /* main.m */; };
+		D21362F114E86AFE0043610F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D21362F014E86AFE0043610F /* AppDelegate.m */; };
+		D21362F414E86AFE0043610F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D21362F214E86AFE0043610F /* MainStoryboard.storyboard */; };
+		D21362F714E86AFE0043610F /* FlyPunnett.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D21362F514E86AFE0043610F /* FlyPunnett.xcdatamodeld */; };
+		D21362FA14E86AFE0043610F /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D21362F914E86AFE0043610F /* MasterViewController.m */; };
+		D21362FD14E86AFE0043610F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D21362FC14E86AFE0043610F /* DetailViewController.m */; };
+		D251BCA214F6941A00EF4A78 /* ActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D251BCA114F6941A00EF4A78 /* ActionViewController.m */; };
+		D292D1B515754BEF004B08D3 /* Drosophila_Melanogaster-unknownauthor-72sq.png in Resources */ = {isa = PBXBuildFile; fileRef = D292D1B415754BEF004B08D3 /* Drosophila_Melanogaster-unknownauthor-72sq.png */; };
+		D2E8864E15742A9600E57947 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D2E8864D15742A9600E57947 /* Default-Portrait~ipad.png */; };
+		D2E8865015742A9900E57947 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D2E8864F15742A9900E57947 /* Default-Landscape~ipad.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D2113B0A14FBE87300998BD8 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		D21362DA14E86AFE0043610F /* FlyPunnett.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlyPunnett.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D21362DE14E86AFE0043610F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D21362E014E86AFE0043610F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D21362E214E86AFE0043610F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D21362E414E86AFE0043610F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D21362E814E86AFE0043610F /* FlyPunnett-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlyPunnett-Info.plist"; sourceTree = "<group>"; };
+		D21362EA14E86AFE0043610F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D21362EC14E86AFE0043610F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		D21362EE14E86AFE0043610F /* FlyPunnett-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlyPunnett-Prefix.pch"; sourceTree = "<group>"; };
+		D21362EF14E86AFE0043610F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		D21362F014E86AFE0043610F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		D21362F314E86AFE0043610F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D21362F614E86AFE0043610F /* FlyPunnett.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FlyPunnett.xcdatamodel; sourceTree = "<group>"; };
+		D21362F814E86AFE0043610F /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MasterViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		D21362F914E86AFE0043610F /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MasterViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		D21362FB14E86AFE0043610F /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = DetailViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		D21362FC14E86AFE0043610F /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DetailViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		D251BCA014F6941A00EF4A78 /* ActionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionViewController.h; sourceTree = "<group>"; };
+		D251BCA114F6941A00EF4A78 /* ActionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionViewController.m; sourceTree = "<group>"; };
+		D292D1B415754BEF004B08D3 /* Drosophila_Melanogaster-unknownauthor-72sq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Drosophila_Melanogaster-unknownauthor-72sq.png"; sourceTree = "<group>"; };
+		D2BDA826150E9A0A0061C7C6 /* notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = notes.txt; sourceTree = "<group>"; };
+		D2C46A21150283ED0088CDA4 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		D2E8864D15742A9600E57947 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		D2E8864F15742A9900E57947 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D21362D714E86AFE0043610F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21362DF14E86AFE0043610F /* UIKit.framework in Frameworks */,
+				D21362E114E86AFE0043610F /* Foundation.framework in Frameworks */,
+				D21362E314E86AFE0043610F /* CoreGraphics.framework in Frameworks */,
+				D21362E514E86AFE0043610F /* CoreData.framework in Frameworks */,
+				D2113B0B14FBE87300998BD8 /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D21362CF14E86AFE0043610F = {
+			isa = PBXGroup;
+			children = (
+				D292D1B415754BEF004B08D3 /* Drosophila_Melanogaster-unknownauthor-72sq.png */,
+				D2E8864F15742A9900E57947 /* Default-Landscape~ipad.png */,
+				D2E8864D15742A9600E57947 /* Default-Portrait~ipad.png */,
+				D2BDA826150E9A0A0061C7C6 /* notes.txt */,
+				D2C46A21150283ED0088CDA4 /* README.txt */,
+				D2B69AE114ED57D2004FB5A6 /* Model */,
+				D21362E614E86AFE0043610F /* FlyPunnett */,
+				D21362DD14E86AFE0043610F /* Frameworks */,
+				D21362DB14E86AFE0043610F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D21362DB14E86AFE0043610F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D21362DA14E86AFE0043610F /* FlyPunnett.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D21362DD14E86AFE0043610F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2113B0A14FBE87300998BD8 /* MessageUI.framework */,
+				D21362DE14E86AFE0043610F /* UIKit.framework */,
+				D21362E014E86AFE0043610F /* Foundation.framework */,
+				D21362E214E86AFE0043610F /* CoreGraphics.framework */,
+				D21362E414E86AFE0043610F /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D21362E614E86AFE0043610F /* FlyPunnett */ = {
+			isa = PBXGroup;
+			children = (
+				D21362EF14E86AFE0043610F /* AppDelegate.h */,
+				D21362F014E86AFE0043610F /* AppDelegate.m */,
+				D251BCA014F6941A00EF4A78 /* ActionViewController.h */,
+				D251BCA114F6941A00EF4A78 /* ActionViewController.m */,
+				D21362F214E86AFE0043610F /* MainStoryboard.storyboard */,
+				D21362F814E86AFE0043610F /* MasterViewController.h */,
+				D21362F914E86AFE0043610F /* MasterViewController.m */,
+				D21362FB14E86AFE0043610F /* DetailViewController.h */,
+				D21362FC14E86AFE0043610F /* DetailViewController.m */,
+				D21362E714E86AFE0043610F /* Supporting Files */,
+			);
+			path = FlyPunnett;
+			sourceTree = "<group>";
+		};
+		D21362E714E86AFE0043610F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D21362E814E86AFE0043610F /* FlyPunnett-Info.plist */,
+				D21362E914E86AFE0043610F /* InfoPlist.strings */,
+				D21362EC14E86AFE0043610F /* main.m */,
+				D21362EE14E86AFE0043610F /* FlyPunnett-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2B69AE114ED57D2004FB5A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D21362F514E86AFE0043610F /* FlyPunnett.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D21362D914E86AFE0043610F /* FlyPunnett */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D213630014E86AFE0043610F /* Build configuration list for PBXNativeTarget "FlyPunnett" */;
+			buildPhases = (
+				D21362D614E86AFE0043610F /* Sources */,
+				D21362D714E86AFE0043610F /* Frameworks */,
+				D21362D814E86AFE0043610F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlyPunnett;
+			productName = FlyPunnett;
+			productReference = D21362DA14E86AFE0043610F /* FlyPunnett.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D21362D114E86AFE0043610F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Scott Daniel";
+			};
+			buildConfigurationList = D21362D414E86AFE0043610F /* Build configuration list for PBXProject "FlyPunnett" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D21362CF14E86AFE0043610F;
+			productRefGroup = D21362DB14E86AFE0043610F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D21362D914E86AFE0043610F /* FlyPunnett */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D21362D814E86AFE0043610F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21362EB14E86AFE0043610F /* InfoPlist.strings in Resources */,
+				D21362F414E86AFE0043610F /* MainStoryboard.storyboard in Resources */,
+				D2E8864E15742A9600E57947 /* Default-Portrait~ipad.png in Resources */,
+				D2E8865015742A9900E57947 /* Default-Landscape~ipad.png in Resources */,
+				D292D1B515754BEF004B08D3 /* Drosophila_Melanogaster-unknownauthor-72sq.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D21362D614E86AFE0043610F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21362ED14E86AFE0043610F /* main.m in Sources */,
+				D21362F114E86AFE0043610F /* AppDelegate.m in Sources */,
+				D21362F714E86AFE0043610F /* FlyPunnett.xcdatamodeld in Sources */,
+				D21362FA14E86AFE0043610F /* MasterViewController.m in Sources */,
+				D21362FD14E86AFE0043610F /* DetailViewController.m in Sources */,
+				D251BCA214F6941A00EF4A78 /* ActionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D21362E914E86AFE0043610F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D21362EA14E86AFE0043610F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D21362F214E86AFE0043610F /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D21362F314E86AFE0043610F /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D21362FE14E86AFE0043610F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D21362FF14E86AFE0043610F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D213630114E86AFE0043610F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlyPunnett/FlyPunnett-Prefix.pch";
+				INFOPLIST_FILE = "FlyPunnett/FlyPunnett-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D213630214E86AFE0043610F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlyPunnett/FlyPunnett-Prefix.pch";
+				INFOPLIST_FILE = "FlyPunnett/FlyPunnett-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D21362D414E86AFE0043610F /* Build configuration list for PBXProject "FlyPunnett" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D21362FE14E86AFE0043610F /* Debug */,
+				D21362FF14E86AFE0043610F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D213630014E86AFE0043610F /* Build configuration list for PBXNativeTarget "FlyPunnett" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D213630114E86AFE0043610F /* Debug */,
+				D213630214E86AFE0043610F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D21362F514E86AFE0043610F /* FlyPunnett.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D21362F614E86AFE0043610F /* FlyPunnett.xcdatamodel */,
+			);
+			currentVersion = D21362F614E86AFE0043610F /* FlyPunnett.xcdatamodel */;
+			name = FlyPunnett.xcdatamodeld;
+			path = FlyPunnett/FlyPunnett.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D21362D114E86AFE0043610F /* Project object */;
+}
